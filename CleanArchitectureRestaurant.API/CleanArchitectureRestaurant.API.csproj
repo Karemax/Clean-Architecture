@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitectureRestaurant.Application\CleanArchitectureRestaurant.Application.csproj" />
+    <ProjectReference Include="..\CleanArchitectureRestaurant.Infrastructure\CleanArchitectureRestaurant.Infrastructure.csproj" />
+    <ProjectReference Include="..\CleanArchitectureRestaurant.Domain\CleanArchitectureRestaurant.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
