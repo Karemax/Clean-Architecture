@@ -58,7 +58,7 @@ UI → Application → Domain
 
 1️⃣ Clone the repository
 
-    git clone https://github.com/YourUsername/CleanArchitectureRestaurant.git
+    git clone https://github.com/Karemax/CleanArchitectureRestaurant.git
     cd CleanArchitectureRestaurant
 
 2️⃣ Run the API
